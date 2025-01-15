@@ -27,3 +27,5 @@ C++_Practice_Project/
 │
 
 └── main.cpp
+
+I want to create a good task contains not only Object oriented but also a main menu 
