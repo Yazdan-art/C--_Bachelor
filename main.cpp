@@ -8,25 +8,27 @@
  * if you are using windows instead of "folder1/encapsulation",
  *  you have to use folder1/encapsulation.exe
  */
+void runWithResult(const std::string& command) {
+    std::cout << "Result: "; // Print "Result: " first
+    system(command.c_str());  // Execute the command
+    std::cout << std::endl;    // Add a newline for better formatting
+}
+
 void runEncapsulation() {
-    std::cout << "Result: ";
-    system("folder1/encapsulation"); // this is good for linux
-    // system("folder1/encapsulation.exe"); // this is good for windows
+    runWithResult("folder1/encapsulation"); // this is good for linux
+    // runWithResult("folder1/encapsulation.exe"); // this is good for windows
 }
 
 void runInheritance() {
-    std::cout << "Result: ";
-    system("folder2/inheritance");
+    runWithResult("folder2/inheritance");
 }
 
 void runPolymorphism() {
-    std::cout << "Result: ";
-    system("folder3/polymorphism");
+    runWithResult("folder3/polymorphism");
 }
 
 void runInnerClass() {
-    std::cout << "Result: ";
-    system("folder4/inner_class");
+    runWithResult("folder4/inner_class");
 }
 
 int main() {
