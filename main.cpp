@@ -1,28 +1,31 @@
 #include <iostream>
 #include <cstdlib>
 
-    /**
-     * @brief important
-     * 
-     * // Adjust the command based on your OS for example 
-     * if you are using windows instead of "folder1/encapsulation",
-     *  you have to use folder1/encapsulation.exe
-     */
+/**
+ * @brief important
+ * 
+ * // Adjust the command based on your OS for example 
+ * if you are using windows instead of "folder1/encapsulation",
+ *  you have to use folder1/encapsulation.exe
+ */
 void runEncapsulation() {
-    system("folder1/encapsulation"); //this is good for linux
+    std::cout << "Result: ";
+    system("folder1/encapsulation"); // this is good for linux
     // system("folder1/encapsulation.exe"); // this is good for windows
-
 }
 
 void runInheritance() {
+    std::cout << "Result: ";
     system("folder2/inheritance");
 }
 
 void runPolymorphism() {
+    std::cout << "Result: ";
     system("folder3/polymorphism");
 }
 
 void runInnerClass() {
+    std::cout << "Result: ";
     system("folder4/inner_class");
 }
 
@@ -30,7 +33,7 @@ int main() {
     int choice;
 
     do {
-         std::cout << " 🫣"<< std::endl;
+        std::cout << " 🫣" << std::endl;
         std::cout << "Welcome to C++ Practice Menu!" << std::endl;
         std::cout << "1. Encapsulation Practice" << std::endl;
         std::cout << "2. Inheritance Practice" << std::endl;
@@ -39,11 +42,10 @@ int main() {
         std::cout << "5. Exit" << std::endl;
         std::cout << "Enter your choice: ";
         std::cin >> choice;
-     
+
         switch (choice) {
             case 1:
                 runEncapsulation();
-                 
                 break;
             case 2:
                 runInheritance();
