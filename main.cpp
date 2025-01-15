@@ -30,6 +30,7 @@ int main() {
     int choice;
 
     do {
+         std::cout << " 🫣"<< std::endl;
         std::cout << "Welcome to C++ Practice Menu!" << std::endl;
         std::cout << "1. Encapsulation Practice" << std::endl;
         std::cout << "2. Inheritance Practice" << std::endl;
@@ -38,10 +39,11 @@ int main() {
         std::cout << "5. Exit" << std::endl;
         std::cout << "Enter your choice: ";
         std::cin >> choice;
-
+     
         switch (choice) {
             case 1:
                 runEncapsulation();
+                 
                 break;
             case 2:
                 runInheritance();
