@@ -1,8 +1,17 @@
 #include <iostream>
 #include <cstdlib>
 
+    /**
+     * @brief important
+     * 
+     * // Adjust the command based on your OS for example 
+     * if you are using windows instead of "folder1/encapsulation",
+     *  you have to use folder1/encapsulation.exe
+     */
 void runEncapsulation() {
-    system("folder1/encapsulation"); // Adjust the command based on your OS
+    system("folder1/encapsulation"); //this is good for linux
+    // system("folder1/encapsulation.exe"); // this is good for windows
+
 }
 
 void runInheritance() {

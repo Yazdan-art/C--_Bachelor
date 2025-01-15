@@ -22,7 +22,7 @@ public:
 
 int main() {
     Person person;
-    person.setName("Alice");
+    person.setName("Yazdan");
     person.setAge(30);
     person.display();
     return 0;
