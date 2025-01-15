@@ -1,5 +1,4 @@
 #include <iostream>
-#include <string>
 
 class Person {
 private:
@@ -16,7 +15,7 @@ public:
     }
 
     void display() {
-        std::cout << "Name: " << name << ", Age: " << age << std::endl;
+        std::cout << "Result: Name: " << name << ", Age: " << age << std::endl;
     }
 };
 

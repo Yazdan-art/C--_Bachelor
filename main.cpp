@@ -9,7 +9,6 @@
  *  you have to use folder1/encapsulation.exe
  */
 void runWithResult(const std::string& command) {
-    std::cout << "Result: "; // Print "Result: " first
     system(command.c_str());  // Execute the command
     std::cout << std::endl;    // Add a newline for better formatting
 }
