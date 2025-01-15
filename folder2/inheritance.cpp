@@ -3,14 +3,14 @@
 class Animal {
 public:
     void speak() {
-        std::cout << "Animal speaks!" << std::endl;
+        std::cout << "Result: Animal speaks!" << std::endl;
     }
 };
 
 class Dog : public Animal {
 public:
     void speak() {
-        std::cout << "Dog barks!" << std::endl;
+        std::cout << "Result: Dog barks!" << std::endl;
     }
 };
 
