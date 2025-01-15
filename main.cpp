@@ -2,19 +2,19 @@
 #include <cstdlib>
 
 void runEncapsulation() {
-    system("folder1/encapsulation.exe"); // Adjust the command based on your OS
+    system("folder1/encapsulation"); // Adjust the command based on your OS
 }
 
 void runInheritance() {
-    system("folder2/inheritance.exe");
+    system("folder2/inheritance");
 }
 
 void runPolymorphism() {
-    system("folder3/polymorphism.exe");
+    system("folder3/polymorphism");
 }
 
 void runInnerClass() {
-    system("folder4/inner_class.exe");
+    system("folder4/inner_class");
 }
 
 int main() {

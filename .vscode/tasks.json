@@ -7,6 +7,13 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
+                "folder1/encapsulation.cpp",
+
+                "folder2/inheritance.cpp",
+
+                "folder3/polymorphism.cpp",
+
+                "folder4/inner_class.cpp",
                 "${file}",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
